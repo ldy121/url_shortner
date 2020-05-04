@@ -1,0 +1,18 @@
+{
+  "name": "url_shortner",
+  "version": "1.0.0",
+  "description": "URL shortner Web API",
+  "main": "index.js",
+  "repository": "git@github.com:ldy121/url_shortner.git",
+  "author": "Lee <dy121.lee@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "express": "^4.17.1"
+  }
+}
