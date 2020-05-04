@@ -7,12 +7,19 @@
   "author": "Lee <dy121.lee@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "babel-node index.js"
+    "start": "babel-node index.js",
+    "test": "jest"
   },
   "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
     "babel-cli": "^6.26.0",
+    "babel-jest": "^25.5.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jest": "^25.5.4"
   }
 }
